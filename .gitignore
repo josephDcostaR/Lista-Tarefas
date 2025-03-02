@@ -1,0 +1,33 @@
+# Compilação
+*.class
+*.jar
+
+# Configurações do IntelliJ IDEA
+/.idea/
+/*.iml
+
+# Configurações do Eclipse
+/.classpath
+/.project
+/.settings/
+
+# Configurações do VS Code
+/.vscode/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos temporários
+/logs/
+*.log
+*.tmp
+
+# Dependências baixadas pelo Maven
+/maven/
+/target/
+
+# Arquivos gerados automaticamente
+*.war
+*.ear
+*.out
