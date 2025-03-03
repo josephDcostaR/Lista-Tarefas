@@ -29,7 +29,7 @@ public class App {
             6 - Sair.\n
             """);
 
-        System.out.print("Escolha: ");
+        System.out.print("Digite: ");
         int op = sc.nextInt();
         sc.nextLine();
         System.out.println();
@@ -55,7 +55,7 @@ public class App {
             break;
 
         default:
-            System.out.println("Opção inválida!");;
+            System.out.println("Opção inválida!");
         }
 
         // Aguarda a interação do usuário antes de retornar ao menu
@@ -73,7 +73,7 @@ public class App {
                 
                 new ProcessBuilder("cmd","/c","cls").inheritIO().start().waitFor();
             }else {
-                System.out.println("\\033[H\\033[2J");
+                System.out.println("\u001b[H\u001b[2J");
                 System.out.flush();
             }
 
