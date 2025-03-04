@@ -21,7 +21,7 @@ O sistema permite realizar as seguintes operações:
 1. Certifique-se de ter o **Java** instalado em seu computador.
 2. Clone este repositório:
    ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/josephDcostaR/Lista-Tarefas.git
    ```
 3. Navegue atá a pasta do projeto
     ```sh
